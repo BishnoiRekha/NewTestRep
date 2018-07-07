@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TestSuite">
+    <!--data-provider-thread-count="10"-->
+  <listeners>
+        <listener class-name="Core.TestInitializer" />
+        </listeners>
+
+    <test name="Test">
+        <classes>
+            <class name="LearnAutomation.AutomationTest.MyTest" >
+               <!--  <methods>
+                    <include name="firstTest"/>
+                      </methods> -->
+            </class>
+           
+        </classes>
+    </test>
+</suite>

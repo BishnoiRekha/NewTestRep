@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="9969" started-at="2018-07-04T04:13:21Z" finished-at="2018-07-04T04:13:31Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="9969" started-at="2018-07-04T04:13:21Z" finished-at="2018-07-04T04:13:31Z">
+      <class name="LearnAutomation.AutomationTest.MyTest">
+        <test-method status="PASS" signature="firstCase()[pri:0, instance:LearnAutomation.AutomationTest.MyTest@48140564]" name="firstCase" duration-ms="5866" started-at="2018-07-04T09:43:21Z" finished-at="2018-07-04T09:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCase -->
+        <test-method status="PASS" signature="secondCase()[pri:0, instance:LearnAutomation.AutomationTest.MyTest@48140564]" name="secondCase" duration-ms="4091" started-at="2018-07-04T09:43:27Z" finished-at="2018-07-04T09:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondCase -->
+      </class> <!-- LearnAutomation.AutomationTest.MyTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

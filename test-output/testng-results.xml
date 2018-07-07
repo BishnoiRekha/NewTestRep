@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="2" total="2" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestSuite" duration-ms="8068" started-at="2018-07-04T04:08:13Z" finished-at="2018-07-04T04:08:21Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="8068" started-at="2018-07-04T04:08:13Z" finished-at="2018-07-04T04:08:21Z">
+      <class name="LearnAutomation.AutomationTest.MyTest">
+        <test-method status="FAIL" signature="firstCase()[pri:0, instance:LearnAutomation.AutomationTest.MyTest@ae45eb6]" name="firstCase" duration-ms="7867" started-at="2018-07-04T09:38:13Z" finished-at="2018-07-04T09:38:21Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Core.TestInitializer.onTestSuccess(TestInitializer.java:61)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1801)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1781)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:721)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstCase -->
+        <test-method status="FAIL" signature="secondCase()[pri:0, instance:LearnAutomation.AutomationTest.MyTest@ae45eb6]" name="secondCase" duration-ms="6703" started-at="2018-07-04T09:38:13Z" finished-at="2018-07-04T09:38:19Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at Core.TestInitializer.onTestSuccess(TestInitializer.java:61)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1801)
+	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1781)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:721)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondCase -->
+      </class> <!-- LearnAutomation.AutomationTest.MyTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestSuite -->
+</testng-results>

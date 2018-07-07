@@ -1,0 +1,10 @@
+Pages/Page.class
+Pages/BasePage.class
+Pages/BbPage.class
+testTools/Selenium.class
+Pages/CommonPage.class
+testTools/Itools.class
+Core/TestInitializer.class
+LearnAutomation/AutomationTest/App.class
+Core/Driver.class
+testTools/Wrapper.class
